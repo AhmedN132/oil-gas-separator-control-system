@@ -1,0 +1,19 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Editor and local configuration
+.vscode/
+.env
+# AutoCAD caches and backups
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+# OS and temp files
+.DS_Store
+Thumbs.db
+*.tmp
