@@ -2,9 +2,10 @@
 
 **Educational engineering portfolio project**: a conceptual two-phase oil-and-gas separator design, a DWSIM steady-state flowsheet, an AutoCAD P&ID, an instrument I/O register, and a simplified Python dynamic-control simulation.
 
+
 ## Process & Instrumentation Diagram (P&ID)
 
-![V-101 Separator P&ID — process flow, instrumentation and control](design/04_Separator_P&ID.png)
+![V-101 Separator P&ID](design/04_Separator_P&ID.png)
 
 **View the drawing:** [High-resolution PDF](design/04_Separator_P&ID.pdf) · [PNG image](design/04_Separator_P&ID.png) · [Editable AutoCAD DWG](design/04_Separator_PID.dwg)
 
