@@ -5,9 +5,9 @@
 
 ## Process & Instrumentation Diagram (P&ID)
 
-![V-101 Separator P&ID](design/04_Separator_P&ID.png)
+![V-101 Separator P&ID](design/04_Separator_PID-1.png)
 
-**View the drawing:** [High-resolution PDF](design/04_Separator_P&ID.pdf) · [PNG image](design/04_Separator_P&ID.png) · [Editable AutoCAD DWG](design/04_Separator_PID.dwg)
+**View the drawing:** [High-resolution PDF](design/04_Separator_P&ID.pdf) · [PNG image](design/04_Separator_PID-1.png) · [Editable AutoCAD DWG](design/04_Separator_PID.dwg)
 
 The P&ID shows the V-101 two-phase separator, inlet shutdown valve, gas-pressure and liquid-level control loops, DCS alarms, independent high-pressure shutdown concept, and pressure safety valve. It represents a conceptual educational design, not an approved construction drawing.
 
