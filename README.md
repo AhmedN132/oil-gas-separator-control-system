@@ -2,6 +2,16 @@
 
 **Educational engineering portfolio project**: a conceptual two-phase oil-and-gas separator design, a DWSIM steady-state flowsheet, an AutoCAD P&ID, an instrument I/O register, and a simplified Python dynamic-control simulation.
 
+## Process & Instrumentation Diagram (P&ID)
+
+![V-101 Separator P&ID — process flow, instrumentation and control](design/04_Separator_P&ID.png)
+
+**View the drawing:** [High-resolution PDF](design/04_Separator_P&ID.pdf) · [PNG image](design/04_Separator_P&ID.png) · [Editable AutoCAD DWG](design/04_Separator_PID.dwg)
+
+The P&ID shows the V-101 two-phase separator, inlet shutdown valve, gas-pressure and liquid-level control loops, DCS alarms, independent high-pressure shutdown concept, and pressure safety valve. It represents a conceptual educational design, not an approved construction drawing.
+
+## DWSIM steady-state model
+
 ![DWSIM separator flowsheet](dwsim/03_Seperator_Simulation.png)
 
 ## At a glance
@@ -25,17 +35,14 @@ The DWSIM file is a **steady-state flash/separator simulation**, not a coupled d
 |---|---|
 | [`design/01_Design_Basis.xlsx`](design/01_Design_Basis.xlsx) | Original design basis (as supplied) |
 | [`design/04_Separator_PID.dwg`](design/04_Separator_PID.dwg) | Editable AutoCAD drawing |
-| [`design/04_Separator_PID.pdf`](design/04_Separator_PID.pdf) | Landscape-oriented P&ID preview (rotated for reading) |
+| [`design/04_Separator_P&ID.pdf`](design/04_Separator_P&ID.pdf) | Updated P&ID PDF |
+| [`design/04_Separator_P&ID.png`](design/04_Separator_P&ID.png) | P&ID preview embedded above |
 | [`dwsim/03_Seperator_Simulation.dwxmz`](dwsim/03_Seperator_Simulation.dwxmz) | Editable DWSIM steady-state case |
 | [`dwsim/03_Seperator_Simulation.png`](dwsim/03_Seperator_Simulation.png) | Flowsheet preview |
 | [`docs/V101_Instrument_IO_List_RevA.xlsx`](docs/V101_Instrument_IO_List_RevA.xlsx) | Preliminary instrument I/O register |
 | [`src/separator_sim.py`](src/separator_sim.py) | Python level / pressure / alarm simulation |
 | [`tests/test_simulator.py`](tests/test_simulator.py) | Automated consistency checks |
 | [`results/`](results/) | Seven scenario plots and CSV exports |
-
-### P&ID preview
-
-[Open the P&ID PDF](design/04_Separator_PID.pdf). The PDF was rotated for easier landscape viewing; the DWG remains unchanged. The original PDF is preserved as `04_Separator_PID_original.pdf`.
 
 ## Run on Windows (VS Code + Git Bash)
 
